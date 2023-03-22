@@ -1,0 +1,32 @@
+.head{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.head__logo{
+    width: 20%;
+    height:20%;
+}
+.head_navegacion{
+    font-family: 'Alkatra', cursive;
+    
+}
+
+.head_navegacion_enlace{
+    display: flex;
+    font-size: 1.3rem;
+   list-style: none;
+}
+
+.head__enlace{
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.head__link{
+    text-decoration: none;
+    color: lightcoral;
+}
+

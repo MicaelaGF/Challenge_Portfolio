@@ -1,0 +1,59 @@
+.presentacion{
+    font-family: 'Delicious Handrawn', cursive; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100%;
+}
+
+.presentacion__container{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin-left: 152px;
+}
+
+.presentacion__descripcion{
+    font-size: 4rem;
+    color: grey;
+    margin-bottom: 0%;
+   
+}
+
+.presentacion__parrafo{
+    font-size: 2rem;
+    color: #d44b4b;
+    
+    
+}
+.presentacion__foto{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin-right: 152px;
+}
+
+.presentacion__lista{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 0%;
+    
+    
+}
+.presentacion_items{
+    display: flex;   
+}
+
+.presentacion__link{
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-right: 100px;
+}
+
+.icon__link{
+    width:20px;
+    height: 20px;
+}
+

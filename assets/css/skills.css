@@ -1,0 +1,47 @@
+.skills{
+    font-family: 'Alkatra', cursive;
+}
+
+.skills__titulo{
+    font-size: 2.5rem;
+    color: lightslategrey;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.skills__container{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 152px;
+    padding-right:152px;
+}
+
+.skills__adquirida{
+    border: 1px solid rgb(203, 203, 201);
+    border-radius: 2%;
+    box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-end;
+    width: 170px;
+    height:170px;
+}
+
+.skills__logo{
+    width: 15%;
+    height: 15%;
+    display: flex;
+    padding-left: 16px;
+    
+    
+}
+
+.skills__habilidad{
+    display: flex;
+    font-size: 1rem;
+    justify-content: end;
+    margin: 0;
+    padding-left: 16px;
+}

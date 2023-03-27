@@ -7,16 +7,19 @@
 .head__logo{
     width: 20%;
     height:20%;
+    margin-left: 80px;
+    
 }
-.head_navegacion{
+.head__navegacion{
     font-family: 'Alkatra', cursive;
     
 }
 
-.head_navegacion_enlace{
+.head__navegacion__enlace{
     display: flex;
     font-size: 1.3rem;
-   list-style: none;
+    list-style: none;
+    margin-right: 152px;
 }
 
 .head__enlace{

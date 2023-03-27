@@ -1,0 +1,49 @@
+.hobbies{
+    font-family: 'Alkatra', cursive;
+}
+
+.hobbies__titulo{
+    font-size: 2.5rem;
+    color: lightslategrey;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.hobbies__container{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 152px;
+    padding-right:152px;
+}
+
+.hobbies__adquirida{
+    border: 1px solid rgb(203, 203, 201);
+    border-radius: 2%;
+    box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-end;
+    
+    width: 170px;
+    height:170px;
+}
+
+.hobbies__logo{
+    width: 15%;
+    height: 15%;
+    display: flex;
+    padding-left: 16px;
+    
+    
+}
+
+.hobbies__habilidad{
+    display: flex;
+    font-size: 1.2rem;
+    color: lightcoral;
+    justify-content: end;
+    margin: 0;
+    padding-left: 16px;
+}

@@ -1,0 +1,55 @@
+.formacion{
+    background-image: linear-gradient(to right, rgb(248, 183, 205), rgb(216, 133, 108));
+    width: 100%;
+    height: 580px;
+    font-family: 'Slabo 27px', serif;
+    margin-top: 88px;
+}
+
+.formacion__encabezado{
+    font-size: 2rem;
+    color: #828282;
+    display: flex;
+    justify-content: center;
+    padding-top: 82px;
+}
+
+.formacion__container{
+    display: flex;
+    justify-content:space-around;
+    margin-left: 152px;
+    width: 1570px;
+    height:345px;
+}
+
+.formacion__institucion{
+    display: flex;
+    background: lightgrey;
+    width: 450px;
+    height:300px;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.formacion__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height:200px;
+   
+    
+}
+.formacion__info{
+    display: flex;
+    flex-direction: column;    
+}
+
+.formacion__titulo, .formacion__fecha{
+    margin: 3px;
+    color: #828282;
+}
+
+.formacion__fecha{
+    font-weight:100;    
+}
